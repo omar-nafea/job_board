@@ -1,6 +1,6 @@
 <x-layout :title="$pageTitle">
   <!-- Main Card Container -->
-    <div class="w-full max-w-2xl p-6 md:p-8 rounded-xl shadow-2xl bg-[oklch(92.4%_0.12_95.746)] font-mono">
+    <div class="w-full max-w-2xl p-6 md:p-8 rounded-xl shadow-2xl bg-[#fff0e5] font-mono">
         
         <!-- Header -->
         <h2 class="text-center font-bold text-3xl text-gray-800 mb-8">

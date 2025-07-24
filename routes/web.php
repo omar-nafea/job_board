@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', indexController::class);  
 Route::resource('posts', PostController::class);
 Route::resource('writers', WriterController::class);
-Route::resource('categories', CategoryController::class)->only(['index', 'show']);
+Route::resource('categories', CategoryController::class);
 
 
 

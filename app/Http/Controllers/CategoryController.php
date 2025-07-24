@@ -42,7 +42,7 @@ class CategoryController extends Controller
         $category = Category::findOrFail($id);
         // TO-DO: paginate posts
         return view('categories.show', [
-            'pageTitle' => $category->title,
+            // 'pageTitle' => $category->,
             'categories' => Category::all(),
             'posts' => $category->posts()->paginate(2)
         ]);

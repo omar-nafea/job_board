@@ -1,5 +1,5 @@
 <x-layout :title="$pageTitle">
-    <div class="w-full p-6 md:p-8 max-w-2xl rounded-xl shadow-2xl bg-[oklch(92.4%_0.12_95.746)] font-mono">
+    <div class="w-full p-6 md:p-8 max-w-2xl rounded-xl shadow-2xl bg-[#fff0e5] font-mono">
         <h2 class="text-center font-bold text-3xl text-gray-800 mb-8">
             Categories List
         </h2>
