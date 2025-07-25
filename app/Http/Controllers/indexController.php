@@ -17,7 +17,7 @@ class indexController extends Controller
     {
         //
         $categories = Category::all();
-        $posts = Post::paginate(2);
+        $posts = Post::paginate(4);
         return view('index', ["pageTitle" => "Home", "categories" => $categories, "posts" => $posts]);
     }
 }

@@ -44,7 +44,8 @@ class CategoryController extends Controller
         return view('categories.show', [
             // 'pageTitle' => $category->,
             'categories' => Category::all(),
-            'posts' => $category->posts()->paginate(2)
+            'posts' => $category->posts()->paginate(2),
+            'pageTitle' => $category->name,
         ]);
     }
 

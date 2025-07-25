@@ -23,6 +23,11 @@
                         <p><span class="font-bold">Category:</span>   {{ $post->categories->first()?->title ?? 'No Category' }}</p>
 
               </div>
+              <div class="flex gap-2 my-4">
+                <a href="/" class="px-2 py-1 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors capitalize ease-in-out duration-200">Edit</a>
+                <a href="/" class="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors capitalize ease-in-out duration-200">delete</a>
+                <a href="/" class="px-2 py-1 bg-indigo-700 text-white rounded hover:bg-indigo-900 transition-colors duration-200 ease-in-out capitalize ">comment</a>
+              </div>
           </div>
 
 

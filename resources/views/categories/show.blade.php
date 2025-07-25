@@ -19,7 +19,7 @@
         <h2 class="text-2xl font-bold">Posts: </h2>
 
             @forelse ($posts as $post)
-                <div class="w-full max-w-2xl p-6 md:p-8 rounded-xl shadow-2xl bg-[#fff0e5] font-mono">
+                <div class="w-full  p-6 md:p-8 rounded-xl shadow-2xl bg-[#fff0e5] font-mono">
 
                     <a href="/posts/{{ $post->id }}" class="block ">
                         <div class="space-y-6 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg">
